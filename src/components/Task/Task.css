@@ -1,0 +1,30 @@
+.task-card {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.262);
+  border-radius: 10px;
+}
+
+.operation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.operation-container button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 5000px;
+  background-color: rgb(50, 132, 255);
+  color: white;
+}
+
+.operation-container button:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,41 @@
+.player-cotainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 10px 16px rgba(53, 53, 53, 0.319);
+  background-position: top;
+  transition: all 0.5s ease;
+}
+
+.player-cotainer:hover {
+  transform: scale(1.1);
+}
+
+.player-cotainer img {
+  height: 50%;
+  background-size: contain;
+}
+
+.player-info {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  box-shadow: 0px -20px 16px rgba(0, 0, 0, 0.8);
+}
+
+.player-info p {
+  margin: 0;
+}
+.player-info span {
+  color: rgb(0, 59, 169);
+  font-weight: bold;
+}
