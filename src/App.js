@@ -15,7 +15,6 @@ function App() {
         setPlayers(res.players);
       });
   }, []);
-
   return (
     <>
       <h1 style={{ width: "100%", textAlign: "center" }}>Players</h1>
