@@ -7,7 +7,7 @@ function App() {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3035/players", {
+    fetch("https://fsi-transfer-market-be.onrender.com/players", {
       method: "GET",
     })
       .then((res) => res.json())
